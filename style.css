@@ -1,0 +1,56 @@
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+html{
+    height: auto;
+}
+body{
+    height: 100%;
+    background-image: url(./images/bg-desktop.svg);
+    background-size: cover;
+    background-color: hsl(257, 40%, 49%);
+    padding: 4%;
+}
+.logo{
+    width: min-content;
+}
+.container{
+    margin-top: 2%;
+    display: flex;    
+    gap: 3%;
+}
+.imagen{
+    width: 100%;
+}
+.info{
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 1%;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-size: x-large;   
+}
+.info button{
+    width: 30%;
+    padding: 3%;
+    border-radius: 50px;
+    color: hsl(257, 40%, 49%);
+}
+.info button:hover{
+    background-color: hsl(300, 69%, 71%);
+    color: white;
+}
+.social{
+    display: flex;
+    justify-content: end;
+}
+.social i{
+    color: white;
+    margin: 10px;
+    padding: 10px;
+    border: solid 1px;
+    justify-content: space-around;
+    border-radius: 50px;
+}
+.social i:hover{
+    color: hsl(300, 69%, 71%);
+}
